@@ -1,3 +1,6 @@
+@import url('https://fonts.cdnfonts.com/css/green-tea');
+@import url('https://fonts.cdnfonts.com/css/arizona-heatwave');
+
 * {
     margin: 0px;
     text-align: center;
@@ -7,13 +10,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid green;
+
     /*! This is how you add gifs as a background !*/
     background-image: url(https://i.gifer.com/origin/bc/bc03a30009724651ee6fd43bbb9f95f4.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 550px;
+    min-height: 750px;
 }
 /* https://media.tenor.com/OcnKh6l_jIIAAAAC/green-tea-anime.gif */
 /* https://64.media.tumblr.com/1aacc20811c5f18df81a6b3be9dd4c46/tumblr_p3e38hfF3P1qie3w6o4_500.gif */
@@ -51,6 +54,7 @@
 }
 
 .logo-text {
+    font-family: 'Arizona Heatwave', sans-serif;
     display: flex;
     color: white;
     justify-content: center;
@@ -76,6 +80,7 @@ a {
 }
 
 .header-links {
+    font-family: 'Arizona Heatwave', sans-serif;
     display: flex;
     align-items: center;
     margin-left: auto;
@@ -83,8 +88,8 @@ a {
     gap: 16px;
 }
 
-.text {
-    color: #6cece4;
+.header-links.text {
+    color: white;
 }
 
 .text.three {
@@ -94,8 +99,10 @@ a {
 .hero-section {
     display: flex;
     justify-content: center;
-    background-color: rgba(46,32,28, 0.98);
-    height: 300px;
+    background-color: rgba(46,32,28, 0.95);
+    height: 400px;
+    padding: 0px 50px;
+    margin-bottom: 200px;
     border-radius: 50px;
 }
 
@@ -117,6 +124,7 @@ a {
 }
 
 .hero-main-text {
+    font-family: 'Green Tea', sans-serif;
     font-size: 48px;
     font-weight: bold;
 }
@@ -128,7 +136,7 @@ a {
 .sign-up {
     margin-top: 30px;
     font-size: 20px;
-    background-color: #e2c2d2;
+    background-color: #d63d55;
     border: none;
     padding: 8px 12px;
     border-radius: 100px;
@@ -139,6 +147,54 @@ a {
     transform: scale(1.1);
 }
 
-.sign-up:click {
-    background-color: #c9acba;
+.information-section {
+    background-color: #52cabe;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.information-title {
+    font-family: 'Green Tea', sans-serif;
+    font-size: 36px;
+    padding-top: 24px;
+    padding-bottom: 48px;
+    font-weight: bold; 
+    color: #2e201c;
+}
+
+.information{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.img .information-img {
+    width: auto;
+    height: 200px;
+    border-radius: 50px;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img .text {
+    font-size: 24px;
+    font-family: 'Green Tea', sans-serif;
+}
+
+.hero-secondary-text {
+    font-family: 'Arizona Heatwave', sans-serif;
+}
+
+.quote-section {
+    background-image: url(../img/second-background.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 750px;
 }
