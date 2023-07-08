@@ -24,6 +24,12 @@
     background-color: #121212;
     opacity: 98%;
     display: flex;
+
+    /*! This is how you make something follow the top of your screen as you scroll down !*/
+    /*! -webkit-sticky is for safari !*/
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
 }
 
 .header-logo {
@@ -59,4 +65,8 @@ a {
 
 .text {
     color: #6cece4;
+}
+
+.text.three {
+    padding-right: 16px
 }
