@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+}
+
+.header {
+    border: solid green;
+    /*! This is how you add gifs as a background !*/
+    background-image: url(https://i.gifer.com/origin/bc/bc03a30009724651ee6fd43bbb9f95f4.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+/* https://media.tenor.com/OcnKh6l_jIIAAAAC/green-tea-anime.gif */
+/* https://64.media.tumblr.com/1aacc20811c5f18df81a6b3be9dd4c46/tumblr_p3e38hfF3P1qie3w6o4_500.gif */
+/* https://i.gifer.com/origin/bc/bc03a30009724651ee6fd43bbb9f95f4.gif */
+/* https://media.tenor.com/vnOVLAbEyToAAAAd/darwin-dancing.gif */
+
+.header-logo, .hero-img {
+    height: auto;
+    width: 200px;
+}
+
+.top-header {
+    background-color: black;
+}
+
+ul {
+    /* this removes the dots on the list items*/
+    font-size: 24px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: white;
+  }
