@@ -13,7 +13,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 400px;
+    min-height: 550px;
 }
 /* https://media.tenor.com/OcnKh6l_jIIAAAAC/green-tea-anime.gif */
 /* https://64.media.tumblr.com/1aacc20811c5f18df81a6b3be9dd4c46/tumblr_p3e38hfF3P1qie3w6o4_500.gif */
@@ -45,11 +45,20 @@
     border-radius: 50%;
 }
 
+.separator {
+    display: flex;
+    width: 50px;
+}
+
 .logo-text {
     display: flex;
-    color: #d63d55;
+    color: white;
     justify-content: center;
     align-items: center;
+}
+
+.heart {
+    color: #d63d55;
 }
 
 ul {
@@ -68,7 +77,6 @@ a {
 
 .header-links {
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-left: auto;
     font-size: 18px;
