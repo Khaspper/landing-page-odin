@@ -134,6 +134,7 @@ a {
 }
 
 .sign-up {
+    font-family: 'Arizona Heatwave', sans-serif;
     margin-top: 30px;
     font-size: 20px;
     background-color: #d63d55;
@@ -148,7 +149,7 @@ a {
 }
 
 .information-section {
-    background-color: #52cabe;
+    background: linear-gradient(#52cabe, #2c8b82);
     padding-bottom: 60px;
     display: flex;
     flex-direction: column;
@@ -167,12 +168,12 @@ a {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
 }
 
 .img .information-img {
     width: auto;
     height: 200px;
+    border: #d63d55 solid 5px;
     border-radius: 50px;
 }
 
@@ -185,6 +186,7 @@ a {
 .img .text {
     font-size: 24px;
     font-family: 'Green Tea', sans-serif;
+    color: #2e201c;
 }
 
 .hero-secondary-text {
@@ -212,4 +214,46 @@ a {
 
 .quote {
     font-size: 36px;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#52cabe, #2c8b82);
+    padding: 50px;
+}
+
+.contact-holder {
+    display: flex;
+    align-items: center;
+    background-color: #121212;
+    padding: 40px;
+    border-radius: 50px;
+}
+
+.call-to-action {
+    font-family: 'Green Tea', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.cta-description {
+    font-family: 'Arizona Heatwave', sans-serif;
+    margin-right: auto;
+}
+
+.contact-holder .sign-up {
+    margin-top: 0px;
+}
+
+.footer {
+    padding: 24px;
+    background-color: #d63d55;
+    color: white;
+}
+
+.website-author{
+    text-decoration: underline;
 }
