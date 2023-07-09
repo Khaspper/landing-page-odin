@@ -12,7 +12,7 @@
     align-items: center;
 
     /*! This is how you add gifs as a background !*/
-    background-image: url(https://i.gifer.com/origin/bc/bc03a30009724651ee6fd43bbb9f95f4.gif);
+    background-image: url(./img/first-background.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -199,7 +199,7 @@ a {
     color: black;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/second-background.gif);
+    background-image: url(./img/second-background.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
